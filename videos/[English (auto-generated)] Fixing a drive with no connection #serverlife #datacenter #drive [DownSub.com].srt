@@ -1,0 +1,35 @@
+1
+00:00:00,060 --> 00:00:02,879
+today we check a drive that is not
+
+2
+00:00:02,879 --> 00:00:04,880
+showing let's check the connection
+
+3
+00:00:04,880 --> 00:00:07,680
+unplugging the server opening the lid
+
+4
+00:00:07,680 --> 00:00:10,200
+then we receive this connection
+
+5
+00:00:10,200 --> 00:00:11,940
+closing the lid
+
+6
+00:00:11,940 --> 00:00:14,340
+plugging everything back in
+
+7
+00:00:14,340 --> 00:00:16,740
+powering on the server we got
+
+8
+00:00:16,740 --> 00:00:18,900
+confirmation that this solved the
+
+9
+00:00:18,900 --> 00:00:21,080
+problem
