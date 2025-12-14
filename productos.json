@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "img": "./imagenes/hosting.jpg",
+        "nombre": "Hosting",
+        "descripcion": "Alojamiento web: planes de hosting compartido, VPS y servidores dedicados; Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?",
+        "precio": "U$ 1000/mes o $10000/año"
+    },
+    {
+        "id": 2,
+        "img": "./imagenes/soporte.jpg",
+        "nombre": "Soporte",
+        "descripcion": "Soporte técnico remoto 24/7: asistencia inmediata para resolver problemas técnicos; Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?",
+        "precio": "U$S 500/mes o $5000/año"},
+    {
+        "id": 3,
+        "img": "./imagenes/sysadmin.jpg",
+        "nombre": "SysAdmin",
+        "descripcion": "Administración de sistemas: instalación, configuración y mantenimiento de servidores; Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?",
+        "precio": " U$S 1500/mes o $15000/año"
+    },
+    {
+        "id": 4,
+        "img": "./imagenes/networking.jpg",
+        "nombre": "Networking",
+        "descripcion": "Soluciones de redes: diseño, implementación y gestión de infraestructuras de red; Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?",
+        "precio": "U$S 1200/mes o $12000/año"
+    },
+    {
+        "id": 5,
+        "img": "./imagenes/cloud.jpg",
+        "nombre": "Servicios Cloud",
+        "descripcion": "Servicios en la nube: migración, gestión y optimización de recursos en la nube; Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?",
+        "precio": "U$S 2000/mes o $20000/año"
+    },
+    {
+        "id": 6,
+        "img": "./imagenes/cybersecurity.jpg",
+        "nombre": "Cybersecurity",
+        "descripcion": "Ciberseguridad: auditorías de seguridad, pruebas de penetración y soluciones de protección; Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Iure, quas? Quisquam, quidem. Iure, quas?",
+        "precio": "U$S 2500/mes o $25000/año"
+    }
+]

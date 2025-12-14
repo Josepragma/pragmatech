@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitio Web de Pre Entrega</title>
+    <title>Sitio Web de Entrega Final</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,12 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -24,72 +30,51 @@
         <img src="./imagenes/logo_pragmatech.jpg" alt="logo-banner" class="mi-banner">
         <nav>
             <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Productos">Productos</a></li>
-                <li><a href="#Opiniones">Opiniones</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#opiniones">Opiniones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <!-- Productos/Servicios -->
-        <section id="Productos">
+    <section id="productos">
             <h2>Productos</h2>
+         <div class="container">
+            <div class="contenedorProductos row justify-content-center gap-2">
+                <!-- Acá insertamos los productos con JavaScript-->
+            </div>
+         </div>
+    </section>
 
-            <div class="productos-container">
-                
-                <div class="card">
-                    <article class="Producto">
-                    <h3>Hosting</h3>
-                    <img src="./imagenes/hosting.jpg" alt="">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium officiis voluptas quia
-                        molestiae beatae, nesciunt ut tempora iure sapiente deserunt? Animi, quo! Nesciunt cupiditate
-                        doloribus commodi possimus repellendus</p>
-                    <p>$100.000</p>
-                    <button>Agregar al carrito</button>
-                    </article>
-                </div>
-            
-                <div class="card">
-                    <article class="Producto">
-                    <h3>Soporte Remoto</h3>
-                    <img src="./imagenes/soporte_remoto.jpg" alt="">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores cumque dignissimos quos sequi
-                        porro facilis laudantium ullam quas. Earum tempora soluta aliquid voluptatibus alias modi autem
-                        sequi quam officiis labore?</p>
-                    <p>$250.000</p>
-                    <button>Agregar al carrito</button>
-                    </article>
-                </div>
-                
-                <div class="card">
-                    <article class="Producto">
-                    <h3>SysAdmin</h3>
-                    <img src="./imagenes/sysadmin.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, reiciendis alias suscipit in quas
-                        voluptatum praesentium soluta tempora? Unde facere in porro nemo quia deleniti laudantium eos
-                        quibusdam et est?</p>
-                    <p>$450.000</p>
-                    <button>Agregar al carrito</button>
-                    </article>
-                </div>
-                
-                <div class="card">
-                    <article class="Producto">
-                    <h3>Networking</h3>
-                    <img src="./imagenes/networking.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius porro accusamus commodi
-                        possimus adipisci minus a dolorum, molestiae velit ratione fugit enim iusto odio quisquam,
-                        recusandae asperiores! Quam?</p>
-                    <p>$350.000</p>
-                    <button>Agregar al carrito</button>
-                    </article>
+        <!-- Carrito de Compras -->
+    <section id="carrito">
+        <div class="container mt-5 bg-light p-5">
+            <div class="d-flex gap-2 mb-3">
+                <h2>Carrito de Compras</h2>
+                <span class="badge text-bg-danger position-relative">
+                    <i class="fa-solid fa-cart-shopping mt-2 fs-6"></i>
+                    <span
+                        class="contador position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                        0
+                    </span>
+                </span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="list-group mb-3">
+                        <!-- Acá insertaremos los productos seleccionados -->
+                    </ul>
+                    <button type="button" class="vaciarCarrito btn btn-dark pb-2">
+                        Vaciar Carrito
+                    </button>
                 </div>
             </div>
-
-        </section>
-
+        </div>
+    </section>
+   
         <!-- Videos -->
         <section id="Videos">
             <h2>Videos</h2>
@@ -102,7 +87,7 @@
         </section>
 
         <!-- Opiniones -->
-        <section id="Opiniones">
+        <section id="opiniones">
             <section class="opiniones-section">
                 <h2>Opiniones</h2>
                 <div class="opiniones-container">
@@ -166,7 +151,7 @@
         </section>
 
         <!-- Contacto -->
-        <section id="Contacto">
+        <section id="contacto">
                 <h2>Contacto</h2>
 
                 <form action="https://formspree.io/f/mzzjjvkl" method="POST">
@@ -193,8 +178,21 @@
     </main>
             
     <footer>
-        <p>&copy; 2025 PragmaTech - Todos los derechos reservados</p>
+
+         <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#opiniones">Opiniones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+<br>
+        &copy; 2025 PragmaTech - Todos los derechos reservados
+
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
